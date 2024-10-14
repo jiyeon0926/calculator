@@ -46,3 +46,14 @@
 - Calculator 클래스에 저장된 연산 결과들 중 가장 먼저 저장된 데이터를 삭제하는 기능을 가진 메서드를 구현한 후 App 클래스의 main 메서드에 삭제 메서드가 활용될 수 있도록 수정
 
 ### ✅ 체크
+- 사용한 컬렉션은? ArrayList
+- 사칙연산을 수행하는가? Y
+- 연산 결과값을 저장하는가? Y
+- App 클래스에서 직접 연산하지 않고, Calculator 클래스의 메서드를 통해 연산하는가? Y
+- Calculator 클래스에 getter 메서드를 구현하였는가? Y
+- Calculator 클래스에 setter 메서드를 구현하였는가? Y
+- App 클래스의 main 메서드에서 Calculator 클래스의 getter 메서드로 접근해 연산 결과값을 가져오는가? Y
+- App 클래스의 main 메서드에서 Calculator 클래스의 setter 메서드로 접근해 연산 결과값을 수정하는가? Y
+- 계속 연산할 때마다 결과값을 저장하는가? Y
+- Calculator 클래스에 저장된 연산 결과들 중 가장 먼저 저장된 데이터를 삭제하는 기능을 가진 메서드를 구현하였는가? Y
+- App 클래스의 main 메서드에서 Calculator 클래스의 remove 메서드로 접근해 가장 먼저 저장된 데이터를 삭제하는가? Y
