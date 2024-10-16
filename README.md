@@ -85,6 +85,5 @@
 
 #### 💡 Generic
 - <> 안에 타입 기재
-- ex) public class ArithmeticCalculator<T>
 
 ### ✅ 체크
