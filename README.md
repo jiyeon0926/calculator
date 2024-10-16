@@ -15,6 +15,9 @@
 # 📝 참고
 - https://udacity.github.io/git-styleguide/ (커밋 컨벤션)
 - https://velog.io/@shin6403/Git-git-%EC%BB%A4%EB%B0%8B-%EC%BB%A8%EB%B2%A4%EC%85%98-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0 (커밋 컨벤션)
+- https://inpa.tistory.com/entry/JAVA-%E2%98%95-%EC%97%B4%EA%B1%B0%ED%98%95Enum-%ED%83%80%EC%9E%85-%EB%AC%B8%EB%B2%95-%ED%99%9C%EC%9A%A9-%EC%A0%95%EB%A6%AC (Enum)
+- https://inpa.tistory.com/entry/JAVA-%E2%98%95-%EC%A0%9C%EB%84%A4%EB%A6%ADGenerics-%EA%B0%9C%EB%85%90-%EB%AC%B8%EB%B2%95-%EC%A0%95%EB%B3%B5%ED%95%98%EA%B8%B0 (Generic)
+- https://velog.io/@yeoni9094/%EB%82%B4%EC%9D%BC%EB%B0%B0%EC%9B%80%EC%BA%A0%ED%94%84-%EB%AA%A8%EB%8D%98-%EC%9E%90%EB%B0%94-20241016 (람다와 스트림 내용 복습)
 -------------
 
 
@@ -44,5 +47,44 @@
 - Lv 1에서 구현한 App 클래스의 main 메서드에 Calculator 클래스가 활용될 수 있도록 수정
 - App 클래스의 main 메서드에서 Calculator 클래스의 연산 결과를 저장하고 있는 컬렉션 필드에 직접 접근하지 못하도록 수정 (캡슐화)
 - Calculator 클래스에 저장된 연산 결과들 중 가장 먼저 저장된 데이터를 삭제하는 기능을 가진 메서드를 구현한 후 App 클래스의 main 메서드에 삭제 메서드가 활용될 수 있도록 수정
+
+### ✅ 체크
+- 사용한 컬렉션은? ArrayList
+- 사칙연산을 수행하는가? Y
+- 연산 결과값을 저장하는가? Y
+- App 클래스에서 직접 연산하지 않고, Calculator 클래스의 메서드를 통해 연산하는가? Y
+- Calculator 클래스에 getter 메서드를 구현하였는가? Y
+- Calculator 클래스에 setter 메서드를 구현하였는가? Y
+- App 클래스의 main 메서드에서 Calculator 클래스의 getter 메서드로 접근해 연산 결과값을 가져오는가? Y
+- App 클래스의 main 메서드에서 Calculator 클래스의 setter 메서드로 접근해 연산 결과값을 수정하는가? Y
+- 계속 연산할 때마다 결과값을 저장하는가? Y
+- Calculator 클래스에 저장된 연산 결과들 중 가장 먼저 저장된 데이터를 삭제하는 기능을 가진 메서드를 구현하였는가? Y
+- App 클래스의 main 메서드에서 Calculator 클래스의 remove 메서드로 접근해 가장 먼저 저장된 데이터를 삭제하는가? Y
+--------
+
+
+# 3️⃣ Lv 3. Enum, 제네릭, 람다, 스트림을 적용한 계산기 구현
+
+### 📋 요구사항
+- 현재 사칙연산 계산기는 (➕,➖,✖️,➗) 이렇게 총 4가지 연산 타입으로 구성
+- 실수, 즉 double 타입의 값을 전달 받아도 연산이 수행하도록 만들기
+- 저장된 연산 결과들 중 Scanner로 입력받은 값보다 큰 결과값 들을 출력
+
+### 📚 사전 지식
+
+#### 💡 Enum
+- 상수만을 다루는 enum 클래스
+- 객체
+- 정수로 매핑
+- enum 키워드를 사용하기 때문에 구현의 의도가 열거인 것을 알 수 있음
+- 자체 클래스 상수와 달리 switch 문 사용 가능
+- enum에서 한 번에 관리하기 때문에 enum 코드 외에서 수정할 필요 없음
+- enum 명은 첫 문자를 대문자로 작성, 나머지는 소문자로 구성
+- 열거 상수는 모두 대문자로 작성
+- 열거 상수가 여러 문자로 구성된 경우에는 단어 사이에 "_" 사용
+
+#### 💡 Generic
+- <> 안에 타입 기재
+- ex) public class ArithmeticCalculator<T>
 
 ### ✅ 체크
