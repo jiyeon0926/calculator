@@ -16,6 +16,7 @@
 - https://udacity.github.io/git-styleguide/ (커밋 컨벤션)
 - https://velog.io/@shin6403/Git-git-%EC%BB%A4%EB%B0%8B-%EC%BB%A8%EB%B2%A4%EC%85%98-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0 (커밋 컨벤션)
 - https://inpa.tistory.com/entry/JAVA-%E2%98%95-%EC%97%B4%EA%B1%B0%ED%98%95Enum-%ED%83%80%EC%9E%85-%EB%AC%B8%EB%B2%95-%ED%99%9C%EC%9A%A9-%EC%A0%95%EB%A6%AC (Enum)
+- https://inpa.tistory.com/entry/JAVA-%E2%98%95-%EC%A0%9C%EB%84%A4%EB%A6%ADGenerics-%EA%B0%9C%EB%85%90-%EB%AC%B8%EB%B2%95-%EC%A0%95%EB%B3%B5%ED%95%98%EA%B8%B0 (Generic)
 - https://velog.io/@yeoni9094/%EB%82%B4%EC%9D%BC%EB%B0%B0%EC%9B%80%EC%BA%A0%ED%94%84-%EB%AA%A8%EB%8D%98-%EC%9E%90%EB%B0%94-20241016 (람다와 스트림 내용 복습)
 -------------
 
@@ -83,5 +84,7 @@
 - 열거 상수가 여러 문자로 구성된 경우에는 단어 사이에 "_" 사용
 
 #### 💡 Generic
+- <> 안에 타입 기재
+- ex) public class ArithmeticCalculator<T>
 
 ### ✅ 체크
