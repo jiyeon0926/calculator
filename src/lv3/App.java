@@ -20,7 +20,7 @@ public class App {
         OperatorType operatorType = OperatorType.getType(operator);
 
         // 테스트
-        int result = calculator.calculate(firstNumber, secondNumber, operatorType);
+        double result = calculator.calculate(firstNumber, secondNumber, operatorType);
         System.out.println("result = " + result);
     }
 }

@@ -3,7 +3,7 @@ package lv3;
 public class ArithmeticCalculator<T> {
     // 사칙연산
     // 연산자 파라미터를 enum 클래스의 열거 상수로 받음
-    public int calculate(int x, int y, OperatorType operator) throws IllegalArgumentException {
+    public double calculate(int x, int y, OperatorType operator) throws IllegalArgumentException {
         int result = 0;
 
         switch (operator) {
