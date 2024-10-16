@@ -2,9 +2,9 @@ package lv3;
 
 // 연산자 타입 관리
 public enum OperatorType {
-    ADD("+"),
-    SUBTRACT("-"),
-    MULTIPLY("*"),
+    PLUS("+"),
+    MINUS("-"),
+    MULTI("*"),
     DIVIDE("/");
 
     private final String operator;
