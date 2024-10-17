@@ -87,3 +87,6 @@
 #### 💡 Generic
 - 클래스 내부에서 사용할 데이터 타입을 외부에서 지정
 - <> 안에 타입 기재
+
+### 💥 트러블 슈팅
+- https://velog.io/@yeoni9094/%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0-Lv.-3-%EA%B3%84%EC%82%B0%EA%B8%B0-Trouble-Shooting-20241016
