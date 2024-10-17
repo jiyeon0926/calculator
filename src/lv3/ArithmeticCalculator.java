@@ -1,9 +1,12 @@
 package lv3;
 
 public class ArithmeticCalculator<T extends Number> {
+
     // 연산자 파라미터를 enum 클래스의 열거 상수로 받음
-    public double calculate(double x, double y, OperatorType operator) throws IllegalArgumentException {
+    public double calculate(T firstNumber, T secondNumber, OperatorType operator) throws IllegalArgumentException {
         double result = 0;
+        double x = firstNumber.doubleValue();
+        double y = secondNumber.doubleValue();
 
         switch (operator) {
             case PLUS:
