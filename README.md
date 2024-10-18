@@ -90,4 +90,5 @@
 - <> 안에 타입 기재
 
 ### 💥 트러블 슈팅
-- https://velog.io/@yeoni9094/%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0-Lv.-3-%EA%B3%84%EC%82%B0%EA%B8%B0-Trouble-Shooting-20241016
+- https://velog.io/@yeoni9094/%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0-Lv.-3-%EA%B3%84%EC%82%B0%EA%B8%B0-Trouble-Shooting-20241016 (1탄)
+- https://velog.io/@yeoni9094/%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0-Lv.-3-%EA%B3%84%EC%82%B0%EA%B8%B0-%EC%9E%AC%EA%B5%AC%ED%98%84-20241018 (2탄)
