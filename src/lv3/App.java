@@ -8,6 +8,7 @@ public class App {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         ArithmeticCalculator<Double> calculator = new ArithmeticCalculator<>();
+        ArrayList<Double> resultList = new ArrayList<>(); // 연산 결과를 담을 리스트 생성
 
         while (true) {
             System.out.print("첫 번째 정수를 입력하세요: ");
@@ -20,9 +21,15 @@ public class App {
             char operator = sc.next().charAt(0);
             OperatorType operatorType = OperatorType.getType(operator);
 
-            calculator.calculate(firstNumber, secondNumber, operatorType); // 사칙연산 계산
-            calculator.setCalculate(); // 결과값 수정
-            calculator.getCalculate(); // 결과값 반환
+            double calculateResult = calculator.calculate(firstNumber, secondNumber, operatorType); // 사칙연산 계산
+
+            if (true) {
+                resultList.add(calculateResult); // 리스트에 연산 결과를 담음
+                System.out.println("결과 리스트: " + resultList);
+
+                double max = resultList.stream().max(Double::compare).get();
+                System.out.println("최댓값: " + max);
+            }
 
             // 계산이 끝나면 더 계산할지 말지 입력 받음
             System.out.println("더 계산하시겠습니까? (exit 입력 시 종료)");
