@@ -19,6 +19,7 @@
 - https://inpa.tistory.com/entry/JAVA-%E2%98%95-%EC%A0%9C%EB%84%A4%EB%A6%ADGenerics-%EA%B0%9C%EB%85%90-%EB%AC%B8%EB%B2%95-%EC%A0%95%EB%B3%B5%ED%95%98%EA%B8%B0 (Generic)
 - https://jihoon2723.tistory.com/entry/JAVA-%EC%A0%9C%EB%84%A4%EB%A6%ADGeneric%EC%9D%B4%EB%9E%80 (Generic)
 - https://velog.io/@yeoni9094/%EB%82%B4%EC%9D%BC%EB%B0%B0%EC%9B%80%EC%BA%A0%ED%94%84-%EB%AA%A8%EB%8D%98-%EC%9E%90%EB%B0%94-20241016 (람다와 스트림 내용 복습)
+- https://velog.io/@persestitan/Java-%EC%B5%9C%EB%8C%80%EA%B0%92-%EC%B5%9C%EC%86%8C%EA%B0%92-%EA%B5%AC%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95 (스트림을 사용해 최댓값 구하기)
 -------------
 
 
